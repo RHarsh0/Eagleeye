@@ -1,0 +1,26 @@
+.eagle__home{
+    width: 100%;
+}
+.eagle__home-img{
+    width: 100%;
+    height: 850px;
+}
+
+.eagle__home-img img{
+    width: 100%;
+    height: 100%;
+    /* filter: blur(4px); */
+    opacity: 0.6;
+}
+
+@media screen and (max-width:426px) {
+    .eagle__home-img{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .eagle__home-img{
+        height: 600px;
+    }
+}
