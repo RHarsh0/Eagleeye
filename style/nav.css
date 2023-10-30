@@ -55,6 +55,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(57,58,58,1) 67%, rgba(
 
 .eagle__nav-ham_menu{
     display: none;
+    z-index: 5;
     background:black;
     border-radius: 5px;
     padding: 15px 35px 15px 35px;

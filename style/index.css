@@ -45,6 +45,12 @@ background: linear-gradient(90deg, rgba(18,68,111,1) 1%, rgba(65,137,199,1) 47%,
     font-family:Arial, Helvetica, sans-serif;
   }
 
+  .font__head{
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    
+  }
 
   @media screen and (max-width: 1024px) {
     
