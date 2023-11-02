@@ -72,3 +72,7 @@
 #card1 h1, #card3 h1{
     color: white;
 }
+
+@media screen and (max-width:768px) {
+    
+}

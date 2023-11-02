@@ -28,7 +28,7 @@
 
 .eagle__nav{
     position: -webkit-sticky; /* For Safari */
-    /* position: sticky; */   /*----------------------- TO GET STICKY NAV BAR---------------------*/
+    /* position: sticky;*/    /*----------------------- TO GET STICKY NAV BAR---------------------*/
     top: 0;
     background-color: white; /* Change to your desired background color */
     z-index: 100; /* Adjust the z-index as needed */
