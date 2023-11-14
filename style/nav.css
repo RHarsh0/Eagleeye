@@ -1,4 +1,23 @@
-
+.eagle__nav-prenav{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background:rgb(223, 223, 223);
+}
+.eagle__nav-prenav_phone{
+    background:rgb(223, 223, 223);
+    display: flex;
+    height: 100%;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.eagle__nav-prenav_phone img{
+    /* width: 100%; */
+    height: 105%;
+}
 .eagle__nav{
     /* border: 1px solid red; */
     display: flex;
@@ -9,7 +28,7 @@
 
 .eagle__nav{
     position: -webkit-sticky; /* For Safari */
-    /* position: sticky; */   /*----------------------- TO GET STICKY NAV NAR---------------------*/
+    /*position: sticky; */   /*----------------------- TO GET STICKY NAV BAR---------------------*/
     top: 0;
     background-color: white; /* Change to your desired background color */
     z-index: 100; /* Adjust the z-index as needed */
@@ -76,6 +95,9 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(57,58,58,1) 67%, rgba(
     color: black;
 }
 @media screen and (max-width: 1024px) {
+    .eagle__nav-prenav_phone{
+        width: 17%;
+    }
     .eagle__nav-container h3{
         padding-bottom: 3px;
         /* font-size: 15 px; */
@@ -93,6 +115,9 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(57,58,58,1) 67%, rgba(
     }
 }
 @media screen and (max-width: 768px) {
+    .eagle__nav-prenav_phone{
+        width: 22%;
+    }
     .eagle__nav-container h3{
         display: none;
     }
@@ -119,13 +144,22 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(57,58,58,1) 67%, rgba(
         position: fixed;
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
+    .eagle__nav-prenav_phone p{
+        font-size: 13px;
+    }
+    .eagle__nav-prenav_phone{
+        width: 34%;
+    }
     .eagle__nav.small{
         height: 70px;
     }
 
 }
 @media screen and (max-width: 376px) {
+    .eagle__nav-prenav_phone{
+        width: 44%;
+    }
     .eagle__nav-ham_menu{
         padding: 10px 30px 10px 30px;
     }

@@ -11,11 +11,29 @@
     <link rel="stylesheet" href="style/product.css">
     <link rel="stylesheet" href="style/brands.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/banner.css">
+    <link rel="stylesheet" href="style/contactbtn.css">
 </head>
 <body>
+    <div class="contact__btn">
+        <div class="contact__btn-cont">
+            <div class="contact__btn-cont_phone" id="callBtn">
+                <img src="../assets/phone_icon.png" alt="">
+            </div>
+            <div class="contact__btn-cont_whatsapp" id="whatsapp">
+                <img src="../assets/whatsapp-icon.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="eagle__nav-prenav">
+        <div class="eagle__nav-prenav_phone">
+            <img src="../assets/phone_icon.png" alt="">
+            <p>+91 (0)9027999315</p>
+        </div>
+    </div>
     <header class="eagle__nav section__padding background__bg">
             <div class="eagle__nav-logo">
-                <img src="assets/logo.png" alt="logo">
+                <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
             </div>
             <div class="eagle__nav-container font_family">
                 <a href="#home"><h3 class="hover-underline-animation">Home</h3></a>
@@ -40,6 +58,13 @@
         <div class="eagle__home" id="home">
             <div class="eagle__home-img target">
                 <img src="assets/home_bg1.jpg" alt="home">
+            </div>
+        </div>
+        <div class="eagle__banner section__padding">
+            <div class="eagle__banner-container background__bg">
+                <div class="eagle__banner-container_text">
+                    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h1>
+                </div>
             </div>
         </div>
             <div class="eagle__about" id="about">
@@ -120,7 +145,7 @@
             </div>
         </main>
         <footer>
-            <div class="footer__content">
+            <div class="footer__content" id="contact">
                 <h1 class="font__head"> Contact Us:</h1>
             </div>
             <div class="footer">
@@ -145,11 +170,9 @@
                 </a></li>
             </ul>
             <ul class="menu">
-              <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+              <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+              <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
+              <li class="menu__item"><a class="menu__link" href="#product">Product</a></li>
         
             </ul>
             <p>&copy;2023 Eagle Eye TS | All Rights Reserved</p>

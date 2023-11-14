@@ -1,5 +1,6 @@
 .eagle__home{
     width: 100%;
+    z-index:-1;
 }
 .eagle__home-img{
     width: 100%;
