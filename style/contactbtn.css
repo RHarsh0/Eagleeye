@@ -7,6 +7,7 @@
     z-index: 9999;
 }
 .contact__btn-cont{
+    cursor: pointer;
     width: 100%;
 }
 .contact__btn-cont div:first-child img{
