@@ -1,0 +1,22 @@
+.contact__btn{
+    width: 90px;
+    /* border: 1px solid red; */
+    position: fixed;
+    margin-left: 90%;
+    margin-top: 36%;
+    z-index: 9999;
+}
+.contact__btn-cont{
+    width: 100%;
+}
+.contact__btn-cont div:first-child img{
+    /* background: red; */
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.contact__btn-cont div:last-child img{
+    /* background: red; */
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    width: 77%;
+}
