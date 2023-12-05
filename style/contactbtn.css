@@ -21,3 +21,42 @@
     margin-left: 10px;
     width: 77%;
 }
+@media screen and (max-width:768px) {
+    .contact__btn{
+        margin-left: 85%;
+        margin-top: 60%;
+    }
+    .contact__btn-cont{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .contact__btn{
+        margin-left: 80%;
+        margin-top: 120%;
+    }
+    .contact__btn-cont{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .contact__btn{
+        margin-left: 77%;
+        margin-top: 135%;
+    }
+    .contact__btn-cont{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:321px){
+    .contact__btn{
+        margin-left: 77%;
+        margin-top: 160%;
+    }
+    .contact__btn-cont{
+        width: 67%;
+    }
+}
