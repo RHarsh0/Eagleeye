@@ -26,3 +26,4 @@ window.addEventListener('scroll', function() {
     var url = 'https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message);
     window.location.href = url;
   });
+  // console.log("nav is get here");

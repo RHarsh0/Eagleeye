@@ -9,7 +9,7 @@
     background:rgb(223, 223, 223);
     display: flex;
     height: 100%;
-    width: 15%;
+    width: 11%;
     justify-content: space-around;
     align-items: center;
     /* border: 1px solid black; */
@@ -45,10 +45,13 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(57,58,58,1) 67%, rgba(
     width: 2%;
 }
 .eagle__nav-logo{
-    width: 10%;
+    /* border: 1px solid red; */
+    margin-top: 23px;
+    width: 12.8%;
 }
 
 .eagle__nav-logo img{
+    /* border: 1px solid red; */
     width: 100%;
 }
 
