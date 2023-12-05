@@ -1,0 +1,33 @@
+.eagle__table{
+    height: 420px;
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+}
+table{
+    margin-top: 80px;
+    margin-left: 9%;
+    /* border: 1px solid red; */
+    width: 80%;
+}
+
+tr{
+    text-align: center;
+}
+td{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    background: rgb(2, 134, 163);
+}
+th{
+    /* background: rgb(2, 2, 2); */
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+
+
+
