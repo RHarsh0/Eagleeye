@@ -1,6 +1,7 @@
 .eagle__banner{
     margin-top: 30px;
     margin-bottom: 30px;
+    /* border: 1px solid red; */
 }
 .eagle__banner-container{
     border-radius: 30px;
@@ -15,4 +16,38 @@
     color: white;
     font-weight: 100;
     font-size: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .eagle__banner{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .eagle__banner-container_text{
+        margin-left: 20px ;
+    }
+    .eagle__banner-container{
+        border-radius: 20px;
+        height: 100px;
+    }
+}
+@media screen and (max-width:426px) {
+    .eagle__banner{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .eagle__banner-container{
+        border-radius: 15px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:376px) {
+    .eagle__banner{
+        margin-left: -18px;
+    }
+}
+@media screen and (max-width:321px) {
+    .eagle__banner{
+        margin-left: -13px;
+    }
 }

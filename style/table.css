@@ -27,7 +27,48 @@ th{
     font-size: 18px;
 }
 
+@media screen and (max-width:769px) {
+    table{
+        margin-top: 40px;
+        margin-left: 5%;
+        /* width: 20%; */
+    }
+    td{
+        height:30px
+    }
+    th{
+        font-size: 15px;
+    }
+}
 
+@media screen and (max-width:426px) {
+    table{
+        margin-left: 0%;
+    }
+    th{
+        border: 1px solid black;
+        font-size: 9.5px;
+        line-height: 0.7rem;
+        font-weight: 400;
+    }
+    td{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    th{
+        font-size: 8.4px;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width:321px) {
+    th{
+        font-size: 7.0px;
+        line-height: 0.7rem;
+    }
+}
 
 
 
