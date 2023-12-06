@@ -115,6 +115,7 @@
     }
     .eagle__about-container_content button{
         margin-left: 29%;
+        /* height: 50px; */
     }
 }
 @media screen and (max-width:376px) {
