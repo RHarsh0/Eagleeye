@@ -5,6 +5,9 @@
     justify-content: center;
     background:rgb(223, 223, 223);
 }
+.eagle__nav-prenav.small{
+    background: red;
+}
 .eagle__nav-prenav_phone{
     background:rgb(223, 223, 223);
     display: flex;
@@ -28,14 +31,15 @@
 
 .eagle__nav{
     position: -webkit-sticky; /* For Safari */
-    /*position: sticky; */   /*----------------------- TO GET STICKY NAV BAR---------------------*/
-    top: 0;
+    position: sticky;    /*----------------------- TO GET STICKY NAV BAR---------------------*/
+    top: 0px;
     background-color: white; /* Change to your desired background color */
     z-index: 100; /* Adjust the z-index as needed */
     transition: all 0.5s; 
 }
 .eagle__nav.small{
     height: 100px;
+    margin-top: 0px;
     background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(57,58,58,1) 67%, rgba(253,255,255,1) 100%);
     color: white;
@@ -43,6 +47,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(57,58,58,1) 67%, rgba(
 }
 .eagle__nav-logo.small{
     width: 2%;
+    /* border: 1px solid red; */
 }
 .eagle__nav-logo{
     /* border: 1px solid red; */
